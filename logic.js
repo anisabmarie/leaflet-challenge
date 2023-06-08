@@ -1,6 +1,5 @@
 // Store our API endpoing as queryURL
-var queryURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-
+var queryURL = "https://earthquake.usgs.gov/fdsnws/event/1/application.json";
 
 // Perform a GET request to the query URL
 d3.json(queryURL).then(function (data) {
